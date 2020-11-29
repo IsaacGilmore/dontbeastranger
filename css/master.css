@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;500&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  color: #707070;
+  min-height: 100vh;
+}
+.my-nav {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 1.5em !important;
+}
+.nav-title a {
+  color: #FFFFFF;
+}
+
+.nav-title a:hover {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 1.25em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 20px; /* Vertically center the text there */
+}
+
+.my-title {
+  background-color: #f78f4e;
+  color: #FFFFFF;
+  border: 4px solid black;
+  padding: 0.2em;
+  font-size: 4vw;
+  font-weight: 500;
+  margin-top: -1em;
+}
+
+.about-link {
+  font-size: 2.5vh;
+  color: #FFFFFF;
+  background-color: #f950c6;
+  border: 4px solid #000000;
+  padding: 0.5em 2.25em 0.5em 2.25em;
+}
+
+.about-link:hover {
+  color: #000000;
+  text-decoration: none;
+}
+
+.about-item h4 {
+  font-size: 7vw;
+}
+
+.about-item p {
+  font-size: 2.5vw;
+}
+.data-point {
+  background-color: #f78f4e;
+  border: 4px solid #000000;
+  border-radius: 4px;
+  color: #FFFFFF;
+  padding: 1.25em;
+}
+
+.number-fact {
+  font-size: 6vw;
+}
+
+.printable-link {
+  color: #99cda8;
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+.printable-link:hover {
+  color: #f950c6;
+  text-decoration: none;
+}
+
+.printable-link-active {
+  color: #f950c6;
+  font-size: 4vw;
+  font-weight: 500;
+}
+
+.download-card {
+ text-align: center;
+}
+
+.download-card-title h1 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #f78f4e
+}
+
+.download-card-title p {
+  color: #000000;
+}
+
+.download-card:hover {
+  opacity: 0.8;
+  box-shadow: 4px 8px 10px #888888;
+}
+
+.download-card:hover a {
+  text-decoration: none;
+}
+
+.long-footer {
+  margin-top: 4em;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 1.25em;
+}
